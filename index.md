@@ -20,20 +20,20 @@ Much of the left-over test code and now unused methods have been cleaned up, but
 ###### Documentation
 Comments are clear and provide necessary insight to coding behavior although it is sparse to non-existent for some of the code. This will be updated to ensure proper documentation.
 
-######Variables
+###### Variables
 Variable names are consistent and properly convey their purpose through naming. Python does not have type casting and thus is not a concern. If time is adequate, I may apply type information to variables for the sack of clarity and expectations. In its current state, there are no redundant or unused variables in the program.
 
 ###### Arithmetic Operations
 Actual mathematic computations are simple and no floating values are currently in use. This has ensured that no floating values are being compared for equality and there are no rounding errors. In its current state, there are some division operations that are not validated to ensure division of zeroes and noise are not present. This will be an added process to the code.
 
-######Loops and Branches
+###### Loops and Branches
 Loops and conditional branching are logically implemented. Common cases are tested first in conditional chains and base case operations are conducted at the start of methods as required. All cases are covered as necessary with conditional branching. Case statements do not exist in python like in many other languages. There is no concern of functionality in this regard. Loops termination conditions are clear and logical and ensure no instances of infinite loops. Indices are logically and adequately set up to avoid any out of bound errors or unexpected behavior. 
 
 ###### Defensive Programming
 The fact that this program is not a web application avoids the concern of many common issues that these types of applications face. SQL injection is not a concern with MongoDB as it does not parse the same way that SQL does. Input validation in the python code is a concerns and additional work is required on the current code base to ensure this validation occurs. For instance, integer input requests do not stop strings from being entered. Further input validation is required to ensure buffer overflows do not occur. Python has built-in protection by throwing an index out of bounds error, but behavior can be unpredictable.
 Python has built in trash collecting and allocating and deallocating manually are not needed. File checks do occur before attempting to access and file output operations are properly closed using the ‘open with’ function to handle the CSV files.
 
-######Conclusion
+###### Conclusion
 The current state of the project is making good progress. The need to satisfy the software design and algorithms and data structures are nearly complete. There is still a need to integrate the necessary code for the MongoDB database. The current plan is to integrate CRUD operations and more advanced searching options. This aspect of the project will have some overlap with the current project, at least in using the same data, but may end up being a separate artifact.
 
 
