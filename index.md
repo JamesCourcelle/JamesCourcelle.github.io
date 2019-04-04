@@ -8,6 +8,7 @@ Please visit the repository page to view the current state of my [Final Capstone
 
 ### Code Review
 ###### C++ code is not being presented as it is a SNHU course assignment
+ [Project Code](https://github.com/JamesCourcelle/FinalProject).
 ###### Code Design Summary
 My final project consists of three major aspects. I am to demonstrate my knowledge with software design/engineering, algorithms and data structures and databases. The software design/engineering and algorithms and data structures are intertwined and closely related in terms of how I will be demonstrating theses skills. 
 The binary search tree that I have created is a balanced binary tree. I accomplished this by sorting a Python list of all the bids by bid ID. The binary tree in my C++ code is not a balanced binary tree lowering its efficiency for traversing as one side relative to the root is likely larger than the other. The point of sorting the bids in ascending order is to create the root node as the middle most bid ID number. With a balanced tree we have a complexity of 1 + log2(n) where n is the number of entries when traversing the tree. With my data file, there are 17938 entries. This means, including the root, the tree has a height of 15. It is here we can see the benefits it offers when traversing the tree. There is never anymore than 15 computations.  
