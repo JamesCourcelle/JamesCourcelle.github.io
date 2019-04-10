@@ -1,5 +1,6 @@
 ## MongoDB database creation process
 [Return Home](index.md)
+See the repository README.md for detailed instructions
 
 ### Installing MongoDB locally
 [Click here](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/#install-mdb-edition) to install MongoDB
