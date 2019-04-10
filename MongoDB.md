@@ -8,3 +8,8 @@ The instructions above provide a detailed step by step process to get the MongoD
 
 ![Mongo shell with successful connection to the data base](mongoshell.JPG)
 
+### Importing database from eBid_Monthly_sales.csv
+Using the mongoimport tool Imported the bids csv file into a database
+
+![mongoimport tool](mongoimport.JPG)
+
