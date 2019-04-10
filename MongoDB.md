@@ -1,5 +1,6 @@
 ## MongoDB database creation process
 [Return Home](index.md)
+
 See the repository README.md for detailed instructions
 
 ### Installing MongoDB locally
