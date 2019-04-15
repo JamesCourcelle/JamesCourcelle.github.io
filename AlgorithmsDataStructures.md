@@ -1,3 +1,8 @@
+[Return Home](index.md)
+
+[Code Repository](https://github.com/JamesCourcelle/FinalProject)
+
+------------------------------------------------------------------
 
 ### main_menu.py
 ```
