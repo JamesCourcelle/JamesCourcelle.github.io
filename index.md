@@ -44,5 +44,11 @@ The current state of the project is making good progress. The need to satisfy th
 
 -----------------------------------------------------------------
 
+## Algorithms and Data Structures
+
+[Algorithms and Data Structures](AlgorithmsDataStructures.md)
+
+-----------------------------------------------------------------
+
 ## MongoDB Creation
 [Database Creation Process](MongoDB.md)
