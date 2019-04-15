@@ -4,4 +4,4 @@
 
 -----------------------------------------------------------------
 
-![LocalFileProgram](LocalFileProgram.jpg)
+![LocalFileProgram](LocalFile.jpg)
