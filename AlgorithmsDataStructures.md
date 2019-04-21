@@ -5,7 +5,7 @@
 ------------------------------------------------------------------
 
 ### main_menu.py
-```
+```python
 import time
 import os.path
 
@@ -130,7 +130,7 @@ print("")
 ```
 
 ### parse_csv.py
-```
+```python
 import csv
 
 
@@ -152,7 +152,7 @@ print("%s | %s | %s | %s" % (bid.bid_id, bid.title, bid.fund, bid.amount))
 ```
 
 ### large_file_search.py
-```
+```python
 from operator import itemgetter
 from LocalFileProgram import parse_csv
 
@@ -288,7 +288,7 @@ return bid
 ```
 
 ### file_output.py
-```
+```python
 import csv
 
 
@@ -315,7 +315,7 @@ export_bids(node)
 ```
 
 ### mongo_crud.py
-```
+```python
 from os import abort
 from pymongo import MongoClient
 
@@ -441,7 +441,7 @@ abort(400, str("Error in process. Aborted."))
 ```
 
 ### start_kill_mongod.py
-```
+```python
 from pathlib import Path
 import subprocess
 import time
@@ -498,7 +498,7 @@ subprocess.run("taskkill /f /im mongod.exe")
 ```
 
 ### mongo_file_export.py
-```
+```python
 import subprocess
 import os
 from pathlib import Path
